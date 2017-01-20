@@ -1,0 +1,692 @@
+body {
+background: white;
+}
+
+.container {
+width: 100%;
+background: fixed;
+
+}
+
+a {
+color: white;
+text-decoration: none;
+    font-weight:normal;
+}
+
+.header__home {
+    background:  #28065a;
+    height: 100px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius:19px;
+}
+
+.logoheader {
+    display:block;
+    margin: 0 auto;
+height: 100px;
+    margin-bottom: 30px;
+width: auto;
+}
+
+.home__button {
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+ background-color: orange;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color: white;
+
+}
+
+
+
+.home__button:hover {
+    background-color:#ffdda1;
+}
+.home__button:active {
+    position:relative;
+    top:1px;
+}
+
+
+.home__button:hover {
+  background: #ffdda1;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h3 {
+padding-bottom: 25px;
+
+
+}
+
+
+.home__button-opacity {
+    background: red;
+}
+
+.home__button-text {
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+}
+
+h1, h2, h3, h4, p, td {
+    font-family: 'Lato', sans-serif;
+}
+
+.invite__back-button, .invite__next-button {
+    text-align: center;
+ height: 50px;
+    padding: 2px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #28065a;
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-size:16px;
+    padding:6px 24px;
+    color: white;
+    text-decoration:none;
+
+    position:relative;
+    top:1px;
+}
+
+.invite__next-button {
+float: right;
+}
+
+
+.invite__back-button {
+float: left;
+}
+
+.invite__button {
+ padding: 7px;
+margin-top: 130px;
+margin-bottom: 10px;
+margin-left: 23%;
+ background-color: orange;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+}
+
+
+.invite__friend:hover {
+    background-color:#ffdda1;
+}
+.invite__friend-bovenste:active {
+    position:relative;
+    top:1px; }
+
+
+.invite__friend-bovenste {
+ padding: 7px;
+    margin-top: 100px;
+margin-bottom: 10px;
+    margin-left: 23%;
+ background-color: orange;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+
+}
+.invite__friend-bovenste:hover {
+    background-color:#ffdda1;
+}
+.invite__friend-bovenste:active {
+    position:relative;
+    top:1px;
+}
+
+.invite__friend {
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+ background-color: orange;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+}
+.invite__friend-bovenste:hover {
+    background-color:#ffdda1;
+}
+.invite__friend-bovenste:active {
+    position:relative;
+    top:1px; }
+
+
+.invite__button--text {
+    height: auto;
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+text-align-last: center
+
+}
+
+
+
+.info-bar {
+    font-weight: 200px;
+border-style:solid;
+    border-color:#28065a;
+display: flex;
+    justify-content: space-between;
+}
+
+.heart {
+    width: 50px;
+    height:50px;
+}
+
+.info-bar__points {
+width: 10%;
+}
+
+.info-bar__people {
+    float: right;
+}
+
+.invite__button-next {
+  text-align: ;
+ height: 50px;
+    padding: 2px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #28065a;
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-size:16px;
+    padding:6px 24px;
+    text-decoration:none;
+
+    position:relative;
+    top:1px;
+}
+
+.antwoord1{
+
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+ background-color: orange;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color: white;
+
+}
+
+.antwoord1:hover {
+    background-color:#ffdda1;
+}
+.antwoord1:active {
+    position:relative;
+    top:1px; }
+
+
+
+.antwoord2{
+
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+ background-color: orange;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+    color: white;
+}
+
+.antwoord2:hover {
+    background-color:#ffdda1;
+}
+.antwoord2:active {
+    position:relative;
+    top:1px; }
+
+.antwoord3{
+
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+ background-color: orange;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+    color: white;
+}
+
+.antwoord3:hover {
+    background-color:#ffdda1;
+}
+.antwoord3:active {
+    position:relative;
+    top:1px; }
+
+
+.goeieantwoord  {
+background-color: green;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+
+}
+
+
+.loading {
+    display:block;
+    margin: 0 auto;
+height: 250px;
+width: auto;
+}
+
+
+.fouteantwoord {
+
+height: auto;
+padding: 10px;
+width: 100%;
+margin-bottom: 10px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:16px;
+    padding:6px 24px;
+      text-align: center;
+    position:relative;
+}
+
+.popupgoed {
+background-color: green;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    margin-top: 100px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+}
+
+
+p {
+text-align: center;
+
+
+
+}
+p, h1, h2, h3, a {
+
+font-weight: 200;
+}
+
+.goedgedaan {
+    border-color: white;
+    padding: 10px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    margin-top: 20px;
+    font-family:Arial;
+    font-size:19px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+}
+
+.tegenspelers  {
+    border-color: white;
+    padding: 10px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    margin-top: 20px;
+    font-family:Arial;
+    font-size:19px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+}
+
+.goedgedaan2 {
+    border-color: white;
+    padding: 10px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    margin-top: 20px;
+    font-family:Arial;
+    font-size:19px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+}
+
+.tegenspelers2  {
+    border-color: white;
+    padding: 10px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    margin-top: 20px;
+    font-family:Arial;
+    font-size:19px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+}
+
+.fouteantwoordandre {
+background-color: red;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color:white;}
+
+
+.foutenantwoordFreek {
+background-color: red;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color:white;
+}
+
+.fouteantwoord3 {
+background-color: red;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color:white;}
+
+
+.fouteantwoord4 {
+background-color: red;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color:white;}
+
+
+.helaas {
+background-color: red;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    margin-top: 100px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+    color: white;
+}
+
+.heart-1 {
+width: 15px;
+height:15px;
+    margin-top: 17px;
+    margin-left: 8px;
+}
+
+
+.reclameblok{
+ padding: 7px;
+margin-top: 30px;
+margin-bottom: 10px;
+margin-left: 23%;
+ background-color: orange;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+}
+
+.reclametekst {
+margin-top: 50px;
+}
+
+.tussenstand {
+margin-top: 150px;
+}
+
+table {
+margin-left:auto;
+    margin-right:auto;}
+
+
+.tussenstand2 {
+margin-top: 350px;
+}
+
+.uitgeschakeldespelers {
+color: red;
+}
+
+.uitgeschakeldespelers3 {
+    color: red;
+margin-top:50px;
+
+}
+
+.deelnemendespelers2{
+color: green;}
+
+
+.deelnemendespelers {
+color: green;}
+
+
+.foutenantwoordVuur  {
+background-color: red;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color:white;}
+
+
+.foutenantwoord8 {
+background-color: red;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color:white;}
+
+.fouteantwoordFreek {background-color: red;
+ padding: 7px;
+margin-bottom: 10px;
+    margin-left: 23%;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:2px solid #dcdcdc;
+    font-family:Arial;
+    font-size:16px;
+    text-align: center;
+    text-decoration:none;
+max-width: 53%;
+    position:relative;
+color:white;}}
